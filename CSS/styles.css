@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background: lightblue;
+  font-family: 'raleway', sans-serif
+  font: 40px
+}
+footer {
+  background: red;
+  font-family: 'Schoolbell', cursive;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  font-size: 70px;
+}
+
+a {
+  color: red;
+}
+.groot {
+  color: green;
+}
+p {
+  font-size: 80px
+  line-height: 25px
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  Font-size: 40px;
+  text-align: center;
+  display:flex;
+}
+nav ul li {
+  display: inline-block;
+}
+nav a {
+  display: inline-block;
+  padding: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+a.active {
+  background: #8c9d87;
+  color: #222;
+}
+input:focus {
+  border:3px solid Darkblue;
+}
+
+Textarea:focus {
+  border: 3px solid Darkblue;
+}
+form {
+  text-align: center;
+}
+.carousel {
+  width:30%;
+  display: block;
+}
+.FlexSlider {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
